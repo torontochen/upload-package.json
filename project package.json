@@ -4,9 +4,6 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "server": "nodemon server.js",
     "client": "npm run serve",
     "dev": "concurrently --names \"server,client\" \"npm run server --silent\" \"npm run client --silent\"",
